@@ -8,8 +8,12 @@ public class Client
     public Gender Gender { get; set; }
     public required string  DocumentId { get; set; }
     public required string PhoneNumber { get; set; }
-    public required Address  LegalAddress { get; set; }
-    public required Address ActualAddress { get; set; }
+    public required string LegalAddressCountry { get; set; }
+    public required string  LegalAddressCity { get; set; }
+    public required string  LegalAddressLine { get; set; }
+    public required string  ActualAddressCountry { get; set; }
+    public required string  ActualAddressCity { get; set; }
+    public required string  ActualAddressLine { get; set; }
     public byte[]? ProfileImage { get; set; }
 }
 
@@ -19,9 +23,3 @@ public enum Gender
     Female
 }
 
-public abstract class Address
-{
-    public required string Country { get; set; }
-    public required string City { get; set; }
-    public required string AddressLine { get; set; }
-} 
