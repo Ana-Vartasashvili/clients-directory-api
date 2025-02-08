@@ -160,4 +160,36 @@ public class ClientsController : BaseController
         return Ok(newClient);
     }
 
+    /// <summary>
+    /// Updates a client.
+    /// </summary>
+    /// <param name="id">The ID of the client to update.</param>
+    /// <returns></returns>
+    [HttpPut("{id:int}")]
+    [ProducesResponseType(typeof(GetClientDto), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(ValidationProblemDetails))]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+    public async Task<IActionResult> Update(int id, [FromForm]UpdateClientDto updateClientDto)
+    {
+        var client = await  _dbContext.Clients
+            .SingleOrDefaultAsync(e=>e.Id==id);
+        
+        _mapper.Map(updateClientDto, client);
+        
+        if (client == null)
+        {
+            return NotFound();
+        }
+
+        try
+        {
+            await _dbContext.SaveChangesAsync();
+            return Ok(_mapper.Map<GetClientDto>(client));
+        }
+        catch (Exception)
+        {
+            return StatusCode(500, "An error occurred while updating the employee");
+        }
+    }
 }
