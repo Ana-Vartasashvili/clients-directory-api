@@ -1,8 +1,7 @@
-namespace ClientsDirectoryApi;
+namespace ClientsDirectoryApi.Clients;
 
-public class Client
+public class CreateClientDto
 {
-    public int Id { get; set; }
     public required string  FirstName { get; set; }
     public required string  LastName { get; set; }
     public Gender Gender { get; set; }
@@ -14,12 +13,5 @@ public class Client
     public required string  ActualAddressCountry { get; set; }
     public required string  ActualAddressCity { get; set; }
     public required string  ActualAddressLine { get; set; }
-    public string ProfileImageUrl { get; set; }
+    public IFormFile? ProfileImage { get; set; }
 }
-
-public enum Gender
-{
-    Male,
-    Female
-}
-

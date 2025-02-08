@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/wwwroot/profile-images/440140ce-f803-4159-94cb-ee82d4cf91a2_istockphoto-1451587807-612x612.jpg",
+      "PackagePath": "staticwebassets/profile-images/440140ce-f803-4159-94cb-ee82d4cf91a2_istockphoto-1451587807-612x612.jpg"
+    },
+    {
+      "Id": "/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/wwwroot/profile-images/70393fca-1005-4332-af8b-38da1547901e",
+      "PackagePath": "staticwebassets/profile-images"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.ClientsDirectoryApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.ClientsDirectoryApi.props",
+      "PackagePath": "build\\ClientsDirectoryApi.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ClientsDirectoryApi.props",
+      "PackagePath": "buildMultiTargeting\\ClientsDirectoryApi.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ClientsDirectoryApi.props",
+      "PackagePath": "buildTransitive\\ClientsDirectoryApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

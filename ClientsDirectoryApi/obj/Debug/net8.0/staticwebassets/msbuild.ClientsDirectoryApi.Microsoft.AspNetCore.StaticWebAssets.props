@@ -1,0 +1,36 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\440140ce-f803-4159-94cb-ee82d4cf91a2_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/440140ce-f803-4159-94cb-ee82d4cf91a2_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\440140ce-f803-4159-94cb-ee82d4cf91a2_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\70393fca-1005-4332-af8b-38da1547901e))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/70393fca-1005-4332-af8b-38da1547901e</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\70393fca-1005-4332-af8b-38da1547901e))</OriginalItemSpec>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

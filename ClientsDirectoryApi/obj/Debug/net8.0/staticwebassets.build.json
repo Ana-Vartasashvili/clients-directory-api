@@ -1,11 +1,58 @@
 {
   "Version": 1,
-  "Hash": "y60+ZFSVrbTLl7YwB3mJekJSHJsqa/atCsvKSTr7z5U=",
+  "Hash": "kucYhr1paXHb20iE8LBpLrHPTdsyUAUwgwr8E/gAYPw=",
   "Source": "ClientsDirectoryApi",
   "BasePath": "_content/ClientsDirectoryApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ClientsDirectoryApi/wwwroot",
+      "Source": "ClientsDirectoryApi",
+      "ContentRoot": "/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/wwwroot/",
+      "BasePath": "_content/ClientsDirectoryApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/wwwroot/profile-images/440140ce-f803-4159-94cb-ee82d4cf91a2_istockphoto-1451587807-612x612.jpg",
+      "SourceId": "ClientsDirectoryApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/wwwroot/",
+      "BasePath": "_content/ClientsDirectoryApi",
+      "RelativePath": "profile-images/440140ce-f803-4159-94cb-ee82d4cf91a2_istockphoto-1451587807-612x612.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/profile-images/440140ce-f803-4159-94cb-ee82d4cf91a2_istockphoto-1451587807-612x612.jpg"
+    },
+    {
+      "Identity": "/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/wwwroot/profile-images/70393fca-1005-4332-af8b-38da1547901e",
+      "SourceId": "ClientsDirectoryApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/wwwroot/",
+      "BasePath": "_content/ClientsDirectoryApi",
+      "RelativePath": "profile-images/70393fca-1005-4332-af8b-38da1547901e",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/profile-images/70393fca-1005-4332-af8b-38da1547901e"
+    }
+  ]
 }

@@ -161,3 +161,6 @@
 /Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/obj/Debug/net8.0/ClientsDirectoryApi.pdb
 /Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/obj/Debug/net8.0/ClientsDirectoryApi.genruntimeconfig.cache
 /Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/obj/Debug/net8.0/ref/ClientsDirectoryApi.dll
+/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/bin/Debug/net8.0/ClientsDirectoryApi.xml
+/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/obj/Debug/net8.0/ClientsDirectoryApi.xml
+/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/bin/Debug/net8.0/ClientsDirectoryApi.staticwebassets.runtime.json
