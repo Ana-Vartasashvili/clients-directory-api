@@ -95,6 +95,27 @@ public class ClientsController : BaseController
     {
         return query.Skip((filter.Page - 1) * filter.PageSize).Take(filter.PageSize);
     }
+    
+    /// <summary>
+    /// Gets a client by ID.
+    /// </summary>
+    /// <param name="id">The ID of the client.</param>
+    /// <returns>The single client record.</returns>
+    [HttpGet("{id:int}")]
+    [ProducesResponseType(typeof(GetClientDto), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+    public async Task<IActionResult> GetById(int id)
+    {
+        var client = await _dbContext.Clients.SingleOrDefaultAsync(x => x.Id == id); 
+        
+        if (client == null)
+        {
+            return NotFound();
+        }
+
+        return Ok(_mapper.Map<GetClientDto>(client));
+    }
 
     /// <summary>
     /// Creates a new client.

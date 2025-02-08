@@ -10,6 +10,13 @@
             </summary>
             <returns>Returns the clients in a JSON array.</returns>
         </member>
+        <member name="M:ClientsDirectoryApi.Clients.ClientsController.GetById(System.Int32)">
+            <summary>
+            Gets a client by ID.
+            </summary>
+            <param name="id">The ID of the client.</param>
+            <returns>The single client record.</returns>
+        </member>
         <member name="M:ClientsDirectoryApi.Clients.ClientsController.CreateClient(ClientsDirectoryApi.Clients.CreateClientDto)">
             <summary>
             Creates a new client.
