@@ -170,7 +170,7 @@ public class ClientsController : BaseController
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(ValidationProblemDetails))]
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-    public async Task<IActionResult> Update(int id, [FromForm]UpdateClientDto updateClientDto)
+    public async Task<IActionResult> UpdateClient(int id, [FromForm]UpdateClientDto updateClientDto)
     {
         var client = await  _dbContext.Clients
             .SingleOrDefaultAsync(e=>e.Id==id);
@@ -191,5 +191,24 @@ public class ClientsController : BaseController
         {
             return StatusCode(500, "An error occurred while updating the employee");
         }
+    }
+    
+    [HttpDelete("{id:int}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+    public async Task<IActionResult> DeleteClient(int id)
+    {
+        var client = await _dbContext.Clients.FindAsync(id);
+
+        if (client == null)
+        {
+            return NotFound();
+        }
+
+        _dbContext.Clients.Remove(client);
+        await _dbContext.SaveChangesAsync();
+
+        return NoContent();
     }
 }

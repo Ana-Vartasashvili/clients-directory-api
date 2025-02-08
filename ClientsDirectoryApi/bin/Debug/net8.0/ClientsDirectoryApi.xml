@@ -24,7 +24,7 @@
             <param name="clientDto">The client to be created.</param>
             <returns>A link to the client that was created.</returns>
         </member>
-        <member name="M:ClientsDirectoryApi.Clients.ClientsController.Update(System.Int32,ClientsDirectoryApi.Clients.UpdateClientDto)">
+        <member name="M:ClientsDirectoryApi.Clients.ClientsController.UpdateClient(System.Int32,ClientsDirectoryApi.Clients.UpdateClientDto)">
             <summary>
             Updates a client.
             </summary>
