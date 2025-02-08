@@ -14,7 +14,7 @@ public class Client
     public required string  ActualAddressCountry { get; set; }
     public required string  ActualAddressCity { get; set; }
     public required string  ActualAddressLine { get; set; }
-    public string ProfileImageUrl { get; set; }
+    public string? ProfileImageUrl { get; set; }
 }
 
 public enum Gender
