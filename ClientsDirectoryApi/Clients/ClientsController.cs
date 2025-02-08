@@ -130,34 +130,38 @@ public class ClientsController : BaseController
     {
         var newClient = _mapper.Map<Client>(clientDto);
 
-        if (clientDto.ProfileImage != null && clientDto.ProfileImage.Length > 0)
+        var profileImageUrl = await ProcessProfileImage(clientDto.ProfileImage);
+        if (profileImageUrl == null && clientDto.ProfileImage != null)
         {
-            var allowedTypes = new[] { "image/webp", "image/jpeg", "image/png", "image/svg+xml" };
-            
-            if (!allowedTypes.Contains(clientDto.ProfileImage.ContentType))
-            {
-                return BadRequest("Unsupported file type");
-            }
-            
-            var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/profile-images");
-            Directory.CreateDirectory(uploadsFolder); 
-            
-            var fileName = $"{Guid.NewGuid()}_{clientDto.ProfileImage.FileName}";
-            var filePath = Path.Combine(uploadsFolder, fileName);
-            
-            await using (var stream = new FileStream(filePath, FileMode.Create))
-            {
-                await clientDto.ProfileImage.CopyToAsync(stream);
-            }
-
-            newClient.ProfileImageUrl = $"/profile-images/{fileName}";
+            return BadRequest("Unsupported file type");
         }
+        
+        newClient.ProfileImageUrl = profileImageUrl;
         
         _dbContext.Add(newClient);
         await _dbContext.SaveChangesAsync();
         
-        // return CreatedAtAction(nameof(GetClientById), new { id = newClient.Id }, newClient);
-        return Ok(newClient);
+        return CreatedAtAction(nameof(GetById), new { id = newClient.Id }, newClient);
+    }
+    
+    private async Task<string?> ProcessProfileImage(IFormFile? profileImage)
+    {
+        var allowedTypes = new[] { "image/webp", "image/jpeg", "image/png", "image/svg+xml" };
+        if (profileImage == null || profileImage.Length == 0 || !allowedTypes.Contains(profileImage.ContentType))
+        {
+            return null;
+        }
+
+        var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/profile-images");
+        Directory.CreateDirectory(uploadsFolder);
+
+        var fileName = $"{Guid.NewGuid()}_{profileImage.FileName}";
+        var filePath = Path.Combine(uploadsFolder, fileName);
+
+        await using var stream = new FileStream(filePath, FileMode.Create);
+        await profileImage.CopyToAsync(stream);
+
+        return $"/profile-images/{fileName}";
     }
 
     /// <summary>
@@ -181,6 +185,17 @@ public class ClientsController : BaseController
         {
             return NotFound();
         }
+        
+        var profileImageUrl = await ProcessProfileImage(updateClientDto.ProfileImage);
+        if (profileImageUrl == null && updateClientDto.ProfileImage != null)
+        {
+            return BadRequest("Unsupported file type");
+        }
+        
+        if (profileImageUrl != null)
+        {
+            client.ProfileImageUrl = profileImageUrl;
+        }
 
         try
         {
@@ -193,6 +208,11 @@ public class ClientsController : BaseController
         }
     }
     
+    /// <summary>
+    /// Deletes a client.
+    /// </summary>
+    /// <param name="id">The ID of the client to delete.</param>
+    /// <returns></returns>
     [HttpDelete("{id:int}")]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]

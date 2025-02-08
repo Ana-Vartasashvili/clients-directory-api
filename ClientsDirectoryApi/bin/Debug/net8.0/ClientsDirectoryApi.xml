@@ -31,6 +31,13 @@
             <param name="id">The ID of the client to update.</param>
             <returns></returns>
         </member>
+        <member name="M:ClientsDirectoryApi.Clients.ClientsController.DeleteClient(System.Int32)">
+            <summary>
+            Deletes a client.
+            </summary>
+            <param name="id">The ID of the client to delete.</param>
+            <returns></returns>
+        </member>
         <member name="T:ClientsDirectoryApi.Migrations.InitialCreate">
             <inheritdoc />
         </member>
