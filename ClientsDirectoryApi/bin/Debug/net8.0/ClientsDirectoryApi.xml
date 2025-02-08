@@ -4,6 +4,12 @@
         <name>ClientsDirectoryApi</name>
     </assembly>
     <members>
+        <member name="M:ClientsDirectoryApi.Clients.ClientsController.GetAll(ClientsDirectoryApi.Clients.GetAllClientsRequest)">
+            <summary>
+            Gets all of the clients in the system.
+            </summary>
+            <returns>Returns the clients in a JSON array.</returns>
+        </member>
         <member name="M:ClientsDirectoryApi.Clients.ClientsController.CreateClient(ClientsDirectoryApi.Clients.CreateClientDto)">
             <summary>
             Creates a new client.

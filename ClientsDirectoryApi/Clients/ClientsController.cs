@@ -1,5 +1,7 @@
 using AutoMapper;
+using ClientsDirectoryApi.Response;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ClientsDirectoryApi.Clients;
 
@@ -12,6 +14,86 @@ public class ClientsController : BaseController
     {
         _dbContext = dbContext;
         _mapper = mapper;
+    }
+    
+    /// <summary>
+    /// Gets all of the clients in the system.
+    /// </summary>
+    /// <returns>Returns the clients in a JSON array.</returns>
+    [HttpGet]
+    [ProducesResponseType(typeof(IEnumerable<GetClientDto>), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+    public async Task<IActionResult> GetAll([FromQuery] GetAllClientsRequest request)
+    {
+        var query = _dbContext.Clients.AsQueryable();
+        
+        query = ApplyFilters(query, request);
+        query = ApplySorting(query, request);
+        query = ApplyPagination(query, request);
+
+        var clients = await query.ToArrayAsync();
+
+        var result = new PaginatedResponse<GetClientDto>
+        {
+            Items = clients.Select(client => _mapper.Map<GetClientDto>(client)).ToList(),
+            TotalCount = clients.Length,
+            Page = request.Page,
+            PageSize = request.PageSize
+        };
+
+        return Ok(result);
+    }
+    
+    private IQueryable<Client> ApplyFilters(IQueryable<Client> query, GetAllClientsRequest request)
+    {
+        if (!string.IsNullOrWhiteSpace(request.FirstName))
+            query = query.Where(c => c.FirstName.Contains(request.FirstName, StringComparison.OrdinalIgnoreCase));
+        if (!string.IsNullOrWhiteSpace(request.LastName))
+            query = query.Where(c => c.LastName.Contains(request.LastName, StringComparison.OrdinalIgnoreCase));
+        if (request.Gender.HasValue)
+            query = query.Where(c => c.Gender == request.Gender.Value);
+        if (!string.IsNullOrWhiteSpace(request.PhoneNumber))
+            query = query.Where(c => c.PhoneNumber.Contains(request.PhoneNumber));
+        if (!string.IsNullOrWhiteSpace(request.LegalAddressCountry))
+            query = query.Where(c => c.LegalAddressCountry.Contains(request.LegalAddressCountry, StringComparison.OrdinalIgnoreCase));
+        if (!string.IsNullOrWhiteSpace(request.LegalAddressCity))
+            query = query.Where(c => c.LegalAddressCity.Contains(request.LegalAddressCity, StringComparison.OrdinalIgnoreCase));
+        if (!string.IsNullOrWhiteSpace(request.ActualAddressCountry))
+            query = query.Where(c => c.ActualAddressCountry.Contains(request.ActualAddressCountry, StringComparison.OrdinalIgnoreCase));
+        if (!string.IsNullOrWhiteSpace(request.ActualAddressCity))
+            query = query.Where(c => c.ActualAddressCity.Contains(request.ActualAddressCity, StringComparison.OrdinalIgnoreCase));
+
+        return query;
+    }
+    
+    private IQueryable<Client> ApplySorting(IQueryable<Client> query, GetAllClientsRequest filter)
+    {
+        if (string.IsNullOrEmpty(filter.SortBy)) return query;
+        
+        var sortOrder = filter.SortOrder?.ToLower() == "desc" ? "desc" : "asc";
+            
+        switch (filter.SortBy.ToLower())
+        { 
+            case "id": 
+                query = sortOrder == "desc" ? query.OrderByDescending(c => c.Id) : query.OrderBy(c => c.Id);
+                break;
+            case "firstname":
+                query = sortOrder == "desc" ? query.OrderByDescending(c => c.FirstName) : query.OrderBy(c => c.FirstName);
+                break;
+            case "lastname":
+                query = sortOrder == "desc" ? query.OrderByDescending(c => c.LastName) : query.OrderBy(c => c.LastName);
+                break;
+            default:
+                query = query.OrderBy(c => c.Id);
+                break;
+        }
+            
+        return query;
+    }
+
+    private IQueryable<Client> ApplyPagination(IQueryable<Client> query, GetAllClientsRequest filter)
+    {
+        return query.Skip((filter.Page - 1) * filter.PageSize).Take(filter.PageSize);
     }
 
     /// <summary>
