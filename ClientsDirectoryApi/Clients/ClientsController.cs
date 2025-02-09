@@ -28,6 +28,7 @@ public class ClientsController : BaseController
         var query = _dbContext.Clients.AsQueryable();
         
         query = ApplyFilters(query, request);
+        var totalCount = await query.CountAsync(); 
         query = ApplySorting(query, request);
         query = ApplyPagination(query, request);
 
@@ -36,7 +37,7 @@ public class ClientsController : BaseController
         var result = new PaginatedResponse<GetClientDto>
         {
             Items = clients.Select(client => _mapper.Map<GetClientDto>(client)).ToList(),
-            TotalCount = clients.Length,
+            TotalCount = totalCount,
             Page = request.Page,
             PageSize = request.PageSize
         };
@@ -46,22 +47,41 @@ public class ClientsController : BaseController
     
     private IQueryable<Client> ApplyFilters(IQueryable<Client> query, GetAllClientsRequest request)
     {
-        if (!string.IsNullOrWhiteSpace(request.FirstName))
-            query = query.Where(c => c.FirstName.Contains(request.FirstName, StringComparison.OrdinalIgnoreCase));
-        if (!string.IsNullOrWhiteSpace(request.LastName))
-            query = query.Where(c => c.LastName.Contains(request.LastName, StringComparison.OrdinalIgnoreCase));
+        if (request.Id != null)
+        {
+            query = query.Where(c=>c.Id == request.Id);
+        }
+        if (!string.IsNullOrWhiteSpace(request.Name))
+        {
+            string nameSearch = request.Name.Trim().ToLower();
+            query = query.Where(c => (c.FirstName + " " + c.LastName).ToLower().Contains(nameSearch));
+        }
         if (request.Gender.HasValue)
             query = query.Where(c => c.Gender == request.Gender.Value);
+        if (!string.IsNullOrWhiteSpace(request.DocumentId))
+        {
+            query = query.Where(c => c.DocumentId.ToLower().Contains(request.DocumentId.ToLower()));
+        }
         if (!string.IsNullOrWhiteSpace(request.PhoneNumber))
-            query = query.Where(c => c.PhoneNumber.Contains(request.PhoneNumber));
+        {
+            query = query.Where(c => c.PhoneNumber.ToLower().Contains(request.PhoneNumber.ToLower()));
+        }
         if (!string.IsNullOrWhiteSpace(request.LegalAddressCountry))
-            query = query.Where(c => c.LegalAddressCountry.Contains(request.LegalAddressCountry, StringComparison.OrdinalIgnoreCase));
+        {
+            query = query.Where(c => c.LegalAddressCountry.ToLower().Contains(request.LegalAddressCountry.ToLower()));
+        }
         if (!string.IsNullOrWhiteSpace(request.LegalAddressCity))
-            query = query.Where(c => c.LegalAddressCity.Contains(request.LegalAddressCity, StringComparison.OrdinalIgnoreCase));
+        {
+            query = query.Where(c => c.LegalAddressCity.ToLower().Contains(request.LegalAddressCity.ToLower()));
+        }
         if (!string.IsNullOrWhiteSpace(request.ActualAddressCountry))
-            query = query.Where(c => c.ActualAddressCountry.Contains(request.ActualAddressCountry, StringComparison.OrdinalIgnoreCase));
+        {
+            query = query.Where(c => c.ActualAddressCountry.ToLower().Contains(request.ActualAddressCountry.ToLower()));
+        }
         if (!string.IsNullOrWhiteSpace(request.ActualAddressCity))
-            query = query.Where(c => c.ActualAddressCity.Contains(request.ActualAddressCity, StringComparison.OrdinalIgnoreCase));
+        {
+            query = query.Where(c => c.ActualAddressCity.ToLower().Contains(request.ActualAddressCity.ToLower()));
+        }
 
         return query;
     }
@@ -70,18 +90,17 @@ public class ClientsController : BaseController
     {
         if (string.IsNullOrEmpty(filter.SortBy)) return query;
         
-        var sortOrder = filter.SortOrder?.ToLower() == "desc" ? "desc" : "asc";
-            
-        switch (filter.SortBy.ToLower())
-        { 
-            case "id": 
-                query = sortOrder == "desc" ? query.OrderByDescending(c => c.Id) : query.OrderBy(c => c.Id);
-                break;
-            case "firstname":
-                query = sortOrder == "desc" ? query.OrderByDescending(c => c.FirstName) : query.OrderBy(c => c.FirstName);
-                break;
+        var sortByParts = filter.SortBy.Split('_');
+        var sortField = sortByParts[0].ToLower();
+        var isDescending = sortByParts.Length > 1 && sortByParts[1].ToLower() == "desc";
+
+        switch (sortField)
+        {
             case "lastname":
-                query = sortOrder == "desc" ? query.OrderByDescending(c => c.LastName) : query.OrderBy(c => c.LastName);
+                query = isDescending ? query.OrderByDescending(c => c.LastName) : query.OrderBy(c => c.LastName);
+                break;
+            case "createdAt":
+                query = isDescending ? query.OrderByDescending(c => c.CreatedAt) : query.OrderBy(c => c.CreatedAt); 
                 break;
             default:
                 query = query.OrderBy(c => c.Id);

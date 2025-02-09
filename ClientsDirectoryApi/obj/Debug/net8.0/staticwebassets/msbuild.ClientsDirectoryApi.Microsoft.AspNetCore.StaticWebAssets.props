@@ -1,5 +1,133 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\02e30a10-a669-484d-b45d-32fbe676395c_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/02e30a10-a669-484d-b45d-32fbe676395c_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\02e30a10-a669-484d-b45d-32fbe676395c_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\05962c16-71a8-4726-8aeb-425959acbbac_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/05962c16-71a8-4726-8aeb-425959acbbac_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\05962c16-71a8-4726-8aeb-425959acbbac_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\06da791c-51c9-4aec-881d-c10549a3d22c_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/06da791c-51c9-4aec-881d-c10549a3d22c_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\06da791c-51c9-4aec-881d-c10549a3d22c_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\0822437f-9fb1-42ec-b95c-4c6a25974c52_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/0822437f-9fb1-42ec-b95c-4c6a25974c52_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\0822437f-9fb1-42ec-b95c-4c6a25974c52_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\088dd4a5-cea0-42e6-81ad-21b2d87b58ea_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/088dd4a5-cea0-42e6-81ad-21b2d87b58ea_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\088dd4a5-cea0-42e6-81ad-21b2d87b58ea_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\0a86222d-3c4f-41a6-87d5-25be0bca12c2_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/0a86222d-3c4f-41a6-87d5-25be0bca12c2_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\0a86222d-3c4f-41a6-87d5-25be0bca12c2_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\0fe8fd36-ab14-4567-9702-65f6b55f89c0_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/0fe8fd36-ab14-4567-9702-65f6b55f89c0_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\0fe8fd36-ab14-4567-9702-65f6b55f89c0_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\112660bb-6120-44a9-aa8d-fcc414372808_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/112660bb-6120-44a9-aa8d-fcc414372808_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\112660bb-6120-44a9-aa8d-fcc414372808_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\114fe362-adb3-4ab4-be3e-946f1015f4cc_istockphoto-1451587807-612x612.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>ClientsDirectoryApi</SourceId>
@@ -15,6 +143,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\114fe362-adb3-4ab4-be3e-946f1015f4cc_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\164a38ae-4546-4ba6-9fb9-2327f835c485_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/164a38ae-4546-4ba6-9fb9-2327f835c485_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\164a38ae-4546-4ba6-9fb9-2327f835c485_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\17513d4c-4ba5-48c5-a999-c2c6030cf147_426ab7a0-17f2-41ca-b1f8-9f837e0769e1.webp))">
       <SourceType>Package</SourceType>
@@ -48,6 +192,390 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\1b3f8a91-3d2c-4575-913f-798284dc49ba_426ab7a0-17f2-41ca-b1f8-9f837e0769e1.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\1b41441d-8a9c-4975-9b26-d49f90baf0ae_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/1b41441d-8a9c-4975-9b26-d49f90baf0ae_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\1b41441d-8a9c-4975-9b26-d49f90baf0ae_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\20daa330-42fd-4b99-8b3b-d0c49bb169ac_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/20daa330-42fd-4b99-8b3b-d0c49bb169ac_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\20daa330-42fd-4b99-8b3b-d0c49bb169ac_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\2c62e681-28dc-4918-a63a-b6787ac1b469_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/2c62e681-28dc-4918-a63a-b6787ac1b469_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\2c62e681-28dc-4918-a63a-b6787ac1b469_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\2e5bc1d0-2d87-4d30-a672-268d3acc1445_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/2e5bc1d0-2d87-4d30-a672-268d3acc1445_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\2e5bc1d0-2d87-4d30-a672-268d3acc1445_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\32e197f9-cf3f-4ad7-b5f4-08062d5a33dd_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/32e197f9-cf3f-4ad7-b5f4-08062d5a33dd_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\32e197f9-cf3f-4ad7-b5f4-08062d5a33dd_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\33275c23-2239-4300-bc67-265ac59a4251_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/33275c23-2239-4300-bc67-265ac59a4251_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\33275c23-2239-4300-bc67-265ac59a4251_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\349d3110-b2c6-401e-819d-48eac631a9c8_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/349d3110-b2c6-401e-819d-48eac631a9c8_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\349d3110-b2c6-401e-819d-48eac631a9c8_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\4515a919-9420-4eda-9f19-15bfa8736848_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/4515a919-9420-4eda-9f19-15bfa8736848_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\4515a919-9420-4eda-9f19-15bfa8736848_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\46fbadac-262b-40ed-918e-28b6271fd711_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/46fbadac-262b-40ed-918e-28b6271fd711_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\46fbadac-262b-40ed-918e-28b6271fd711_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\496141c1-5c7d-4fd4-af83-935e9aa0f6ec_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/496141c1-5c7d-4fd4-af83-935e9aa0f6ec_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\496141c1-5c7d-4fd4-af83-935e9aa0f6ec_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\49d3332e-26f1-424b-a506-2bad09a93df0_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/49d3332e-26f1-424b-a506-2bad09a93df0_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\49d3332e-26f1-424b-a506-2bad09a93df0_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\4a81414a-af8e-4489-a0d6-a97eef3caa27_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/4a81414a-af8e-4489-a0d6-a97eef3caa27_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\4a81414a-af8e-4489-a0d6-a97eef3caa27_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\4eaa4b9c-efe0-473e-a953-4be5895b20d8_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/4eaa4b9c-efe0-473e-a953-4be5895b20d8_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\4eaa4b9c-efe0-473e-a953-4be5895b20d8_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\59eb7278-c193-4174-9e03-8a9ced88161a_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/59eb7278-c193-4174-9e03-8a9ced88161a_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\59eb7278-c193-4174-9e03-8a9ced88161a_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\5c3580f9-4d27-4826-8ba6-0f5a478d28a0_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/5c3580f9-4d27-4826-8ba6-0f5a478d28a0_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\5c3580f9-4d27-4826-8ba6-0f5a478d28a0_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\5e10d56d-6ffd-4b81-9816-718be00368e5_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/5e10d56d-6ffd-4b81-9816-718be00368e5_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\5e10d56d-6ffd-4b81-9816-718be00368e5_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\5f992cfa-7988-4c86-a592-27c11978ff37_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/5f992cfa-7988-4c86-a592-27c11978ff37_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\5f992cfa-7988-4c86-a592-27c11978ff37_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\644a7d70-f00a-4a37-823e-a025fd95824c_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/644a7d70-f00a-4a37-823e-a025fd95824c_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\644a7d70-f00a-4a37-823e-a025fd95824c_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\650d041d-d909-42c7-a568-d81b85b4f9ee_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/650d041d-d909-42c7-a568-d81b85b4f9ee_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\650d041d-d909-42c7-a568-d81b85b4f9ee_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\692c01ca-a282-4394-aca2-d34d2a24563e_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/692c01ca-a282-4394-aca2-d34d2a24563e_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\692c01ca-a282-4394-aca2-d34d2a24563e_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\7203a9f9-08c0-4f37-ad33-c1937654617f_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/7203a9f9-08c0-4f37-ad33-c1937654617f_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\7203a9f9-08c0-4f37-ad33-c1937654617f_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\74f37f5e-f394-4438-b8b0-08f7b1675073_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/74f37f5e-f394-4438-b8b0-08f7b1675073_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\74f37f5e-f394-4438-b8b0-08f7b1675073_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\764a3fd5-91ba-4abf-ac18-994085b8b1ac_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/764a3fd5-91ba-4abf-ac18-994085b8b1ac_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\764a3fd5-91ba-4abf-ac18-994085b8b1ac_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\784bd07a-6f2c-482c-80d9-04561177541b_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/784bd07a-6f2c-482c-80d9-04561177541b_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\784bd07a-6f2c-482c-80d9-04561177541b_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\78ada9e6-51c2-4b0e-b3c0-54f35b02577b_istockphoto-1451587807-612x612.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>ClientsDirectoryApi</SourceId>
@@ -63,6 +591,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\78ada9e6-51c2-4b0e-b3c0-54f35b02577b_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\7bf5c93e-3885-4302-a41e-3fd654e25f64_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/7bf5c93e-3885-4302-a41e-3fd654e25f64_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\7bf5c93e-3885-4302-a41e-3fd654e25f64_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\841beecf-f4aa-4a58-bb09-f4792608d3e1_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/841beecf-f4aa-4a58-bb09-f4792608d3e1_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\841beecf-f4aa-4a58-bb09-f4792608d3e1_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\86c1b995-c787-43c4-af4d-09310fa0ea89_istockphoto-1451587807-612x612.jpg))">
       <SourceType>Package</SourceType>
@@ -80,6 +640,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\86c1b995-c787-43c4-af4d-09310fa0ea89_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\879c23b1-69d5-4a87-a74c-152b01f74876_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/879c23b1-69d5-4a87-a74c-152b01f74876_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\879c23b1-69d5-4a87-a74c-152b01f74876_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\8bd79fc2-a25e-4ec7-813d-0d55d38ce160_426ab7a0-17f2-41ca-b1f8-9f837e0769e1.webp))">
       <SourceType>Package</SourceType>
       <SourceId>ClientsDirectoryApi</SourceId>
@@ -95,6 +671,102 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\8bd79fc2-a25e-4ec7-813d-0d55d38ce160_426ab7a0-17f2-41ca-b1f8-9f837e0769e1.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\8dbcc5fa-43e7-4d1e-ba7d-dbfeb82061f9_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/8dbcc5fa-43e7-4d1e-ba7d-dbfeb82061f9_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\8dbcc5fa-43e7-4d1e-ba7d-dbfeb82061f9_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\8fee7c45-0804-469e-b472-262d643658eb_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/8fee7c45-0804-469e-b472-262d643658eb_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\8fee7c45-0804-469e-b472-262d643658eb_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\92adc444-94dd-4c3d-93aa-a6155b738fc6_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/92adc444-94dd-4c3d-93aa-a6155b738fc6_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\92adc444-94dd-4c3d-93aa-a6155b738fc6_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\93cebdfc-5a7f-45bc-be17-22f82076f0eb_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/93cebdfc-5a7f-45bc-be17-22f82076f0eb_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\93cebdfc-5a7f-45bc-be17-22f82076f0eb_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\a18c8d61-aef9-4b92-8206-505606e8251c_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/a18c8d61-aef9-4b92-8206-505606e8251c_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\a18c8d61-aef9-4b92-8206-505606e8251c_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\a1b62a6a-f43f-4283-ad5e-041b462fc3ef_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/a1b62a6a-f43f-4283-ad5e-041b462fc3ef_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\a1b62a6a-f43f-4283-ad5e-041b462fc3ef_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\a43cf248-76e5-41b5-b2d3-6ddc9b3970ad_istockphoto-1451587807-612x612.jpg))">
       <SourceType>Package</SourceType>
@@ -112,6 +784,102 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\a43cf248-76e5-41b5-b2d3-6ddc9b3970ad_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\a4c49c9d-9cfd-4bc1-a31c-22222a9800d9_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/a4c49c9d-9cfd-4bc1-a31c-22222a9800d9_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\a4c49c9d-9cfd-4bc1-a31c-22222a9800d9_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\b1e4dd18-97ae-4aef-85af-cad63289be76_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/b1e4dd18-97ae-4aef-85af-cad63289be76_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\b1e4dd18-97ae-4aef-85af-cad63289be76_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\b37fa714-ddeb-4bfb-bf66-62ced7390a78_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/b37fa714-ddeb-4bfb-bf66-62ced7390a78_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\b37fa714-ddeb-4bfb-bf66-62ced7390a78_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\b7ff5b3b-858b-4fcd-8f07-3b55373811bb_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/b7ff5b3b-858b-4fcd-8f07-3b55373811bb_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\b7ff5b3b-858b-4fcd-8f07-3b55373811bb_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\bcb80c48-4948-4435-b66f-eb301fdcbc00_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/bcb80c48-4948-4435-b66f-eb301fdcbc00_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\bcb80c48-4948-4435-b66f-eb301fdcbc00_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\bd76321d-96b7-4a66-9440-2afe0576ea1b_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/bd76321d-96b7-4a66-9440-2afe0576ea1b_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\bd76321d-96b7-4a66-9440-2afe0576ea1b_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\be72dc56-f362-464b-9e18-0d5a761a94f5_istockphoto-1451587807-612x612.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>ClientsDirectoryApi</SourceId>
@@ -127,6 +895,230 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\be72dc56-f362-464b-9e18-0d5a761a94f5_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\c4328551-97d7-45c5-9346-3d9cb43e83a4_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/c4328551-97d7-45c5-9346-3d9cb43e83a4_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\c4328551-97d7-45c5-9346-3d9cb43e83a4_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\c9cd0099-7965-4a82-9a63-89954c576e23_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/c9cd0099-7965-4a82-9a63-89954c576e23_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\c9cd0099-7965-4a82-9a63-89954c576e23_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\cb861af4-faaa-431a-82a2-bf3e028a8b3a_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/cb861af4-faaa-431a-82a2-bf3e028a8b3a_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\cb861af4-faaa-431a-82a2-bf3e028a8b3a_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\d5ca0226-b7e4-4f67-a98b-e283ec54413e_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/d5ca0226-b7e4-4f67-a98b-e283ec54413e_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\d5ca0226-b7e4-4f67-a98b-e283ec54413e_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\de149c0e-4ef9-4338-882e-d99224175185_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/de149c0e-4ef9-4338-882e-d99224175185_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\de149c0e-4ef9-4338-882e-d99224175185_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\df5decea-4e62-4b4a-980c-a45ccff68baf_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/df5decea-4e62-4b4a-980c-a45ccff68baf_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\df5decea-4e62-4b4a-980c-a45ccff68baf_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\e086de15-53ce-447a-912d-9624cc8a17d5_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/e086de15-53ce-447a-912d-9624cc8a17d5_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\e086de15-53ce-447a-912d-9624cc8a17d5_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\e09f9b5d-75fb-4f48-b85f-298eec9bd612_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/e09f9b5d-75fb-4f48-b85f-298eec9bd612_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\e09f9b5d-75fb-4f48-b85f-298eec9bd612_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\e0cf8dba-c2d6-481b-8ba1-04db00e52baf_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/e0cf8dba-c2d6-481b-8ba1-04db00e52baf_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\e0cf8dba-c2d6-481b-8ba1-04db00e52baf_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\e3580088-1f27-4ca2-83ec-231cf585f259_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/e3580088-1f27-4ca2-83ec-231cf585f259_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\e3580088-1f27-4ca2-83ec-231cf585f259_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\ee830a27-0bd8-4d0f-ab48-c8ffaf33a6d3_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/ee830a27-0bd8-4d0f-ab48-c8ffaf33a6d3_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\ee830a27-0bd8-4d0f-ab48-c8ffaf33a6d3_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\f65a31f4-5791-46af-bd8c-4e0a19d5d0b9_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/f65a31f4-5791-46af-bd8c-4e0a19d5d0b9_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\f65a31f4-5791-46af-bd8c-4e0a19d5d0b9_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\f716dae0-42dd-43a1-ae93-b4cccda01585_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/f716dae0-42dd-43a1-ae93-b4cccda01585_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\f716dae0-42dd-43a1-ae93-b4cccda01585_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\f8bc95c7-3be4-458f-845f-f96ad1ed9f2e_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/f8bc95c7-3be4-458f-845f-f96ad1ed9f2e_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\f8bc95c7-3be4-458f-845f-f96ad1ed9f2e_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\fdbd800a-6bc5-4965-8d2a-4fd87d0a4b0d_istockphoto-1451587807-612x612.jpg))">
       <SourceType>Package</SourceType>

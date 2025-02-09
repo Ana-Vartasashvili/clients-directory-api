@@ -62,5 +62,17 @@
         <member name="M:ClientsDirectoryApi.Migrations.UpdateClientProfileImageColumn.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:ClientsDirectoryApi.Migrations.AddCreationDateToClient">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddCreationDateToClient.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddCreationDateToClient.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddCreationDateToClient.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>

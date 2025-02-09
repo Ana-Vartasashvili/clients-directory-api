@@ -15,6 +15,7 @@ public class Client
     public required string  ActualAddressCity { get; set; }
     public required string  ActualAddressLine { get; set; }
     public string? ProfileImageUrl { get; set; }
+    public DateTime CreatedAt { get; set; } = DateTime.UtcNow; 
 }
 
 public enum Gender
