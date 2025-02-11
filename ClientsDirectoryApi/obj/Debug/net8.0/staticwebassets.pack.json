@@ -77,6 +77,10 @@
       "PackagePath": "staticwebassets/profile-images/349d3110-b2c6-401e-819d-48eac631a9c8_istockphoto-1451587807-612x612.jpg"
     },
     {
+      "Id": "/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/wwwroot/profile-images/3a53ed75-12fa-43c6-a90d-ac14f3d12774_istockphoto-1451587807-612x612.jpg",
+      "PackagePath": "staticwebassets/profile-images/3a53ed75-12fa-43c6-a90d-ac14f3d12774_istockphoto-1451587807-612x612.jpg"
+    },
+    {
       "Id": "/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/wwwroot/profile-images/4515a919-9420-4eda-9f19-15bfa8736848_istockphoto-1451587807-612x612.jpg",
       "PackagePath": "staticwebassets/profile-images/4515a919-9420-4eda-9f19-15bfa8736848_istockphoto-1451587807-612x612.jpg"
     },
@@ -263,6 +267,10 @@
     {
       "Id": "/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/wwwroot/profile-images/e3580088-1f27-4ca2-83ec-231cf585f259_istockphoto-1451587807-612x612.jpg",
       "PackagePath": "staticwebassets/profile-images/e3580088-1f27-4ca2-83ec-231cf585f259_istockphoto-1451587807-612x612.jpg"
+    },
+    {
+      "Id": "/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/wwwroot/profile-images/ede2ab5a-67dc-4bde-8ca7-531d565f9305_istockphoto-1451587807-612x612.jpg",
+      "PackagePath": "staticwebassets/profile-images/ede2ab5a-67dc-4bde-8ca7-531d565f9305_istockphoto-1451587807-612x612.jpg"
     },
     {
       "Id": "/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/wwwroot/profile-images/ee830a27-0bd8-4d0f-ab48-c8ffaf33a6d3_istockphoto-1451587807-612x612.jpg",

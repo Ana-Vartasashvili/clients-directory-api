@@ -97,9 +97,9 @@ public class ClientsController : BaseController
         switch (sortField)
         {
             case "lastname":
-                query = isDescending ? query.OrderByDescending(c => c.LastName) : query.OrderBy(c => c.LastName);
+                query = isDescending ? query.OrderByDescending(c => c.LastName.ToLower()) : query.OrderBy(c => c.LastName.ToLower());
                 break;
-            case "createdAt":
+            case "createdat":
                 query = isDescending ? query.OrderByDescending(c => c.CreatedAt) : query.OrderBy(c => c.CreatedAt); 
                 break;
             default:

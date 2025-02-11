@@ -304,6 +304,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\349d3110-b2c6-401e-819d-48eac631a9c8_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\3a53ed75-12fa-43c6-a90d-ac14f3d12774_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/3a53ed75-12fa-43c6-a90d-ac14f3d12774_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\3a53ed75-12fa-43c6-a90d-ac14f3d12774_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\4515a919-9420-4eda-9f19-15bfa8736848_istockphoto-1451587807-612x612.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>ClientsDirectoryApi</SourceId>
@@ -1055,6 +1071,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\e3580088-1f27-4ca2-83ec-231cf585f259_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\ede2ab5a-67dc-4bde-8ca7-531d565f9305_istockphoto-1451587807-612x612.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientsDirectoryApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientsDirectoryApi</BasePath>
+      <RelativePath>profile-images/ede2ab5a-67dc-4bde-8ca7-531d565f9305_istockphoto-1451587807-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\ede2ab5a-67dc-4bde-8ca7-531d565f9305_istockphoto-1451587807-612x612.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile-images\ee830a27-0bd8-4d0f-ab48-c8ffaf33a6d3_istockphoto-1451587807-612x612.jpg))">
       <SourceType>Package</SourceType>
