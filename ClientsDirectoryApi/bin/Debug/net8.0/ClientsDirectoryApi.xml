@@ -74,5 +74,53 @@
         <member name="M:ClientsDirectoryApi.Migrations.AddCreationDateToClient.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:ClientsDirectoryApi.Migrations.AddAccountForClient">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClient.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClient.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClient.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ClientsDirectoryApi.Migrations.AddAccountForClients">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClients.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClients.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClients.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ClientsDirectoryApi.Migrations.AddAccountForClientss">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClientss.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClientss.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClientss.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ClientsDirectoryApi.Migrations.AddAccountForClientsss">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClientsss.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClientsss.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClientsss.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>

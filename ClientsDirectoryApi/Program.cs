@@ -26,6 +26,8 @@ builder.Services.AddCors(options =>
             .AllowAnyHeader()
             .AllowAnyMethod());
 });
+builder.Services.AddControllers().AddNewtonsoftJson();
+
 
 var app = builder.Build();
 

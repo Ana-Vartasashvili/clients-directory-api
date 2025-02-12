@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YqfhGAhjhH99J04I7DUL94tO8uX2STFHKfQlZQkHE/I=",
+  "Hash": "CqKaOGzX8X2gvxPSFUwUa1B+XDPi2jDSk0fpXAuBZck=",
   "Source": "ClientsDirectoryApi",
   "BasePath": "_content/ClientsDirectoryApi",
   "Mode": "Default",
@@ -264,6 +264,25 @@
       "OriginalItemSpec": "wwwroot/profile-images/1b41441d-8a9c-4975-9b26-d49f90baf0ae_istockphoto-1451587807-612x612.jpg"
     },
     {
+      "Identity": "/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/wwwroot/profile-images/203fafc2-5102-4ba3-837b-24876cf038b0_Success.svg",
+      "SourceId": "ClientsDirectoryApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/wwwroot/",
+      "BasePath": "_content/ClientsDirectoryApi",
+      "RelativePath": "profile-images/203fafc2-5102-4ba3-837b-24876cf038b0_Success.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/profile-images/203fafc2-5102-4ba3-837b-24876cf038b0_Success.svg"
+    },
+    {
       "Identity": "/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/wwwroot/profile-images/20daa330-42fd-4b99-8b3b-d0c49bb169ac_istockphoto-1451587807-612x612.jpg",
       "SourceId": "ClientsDirectoryApi",
       "SourceType": "Discovered",
@@ -281,6 +300,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/profile-images/20daa330-42fd-4b99-8b3b-d0c49bb169ac_istockphoto-1451587807-612x612.jpg"
+    },
+    {
+      "Identity": "/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/wwwroot/profile-images/25eec416-da95-4c4e-8475-0a764932784d_Negative.svg",
+      "SourceId": "ClientsDirectoryApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/wwwroot/",
+      "BasePath": "_content/ClientsDirectoryApi",
+      "RelativePath": "profile-images/25eec416-da95-4c4e-8475-0a764932784d_Negative.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/profile-images/25eec416-da95-4c4e-8475-0a764932784d_Negative.svg"
     },
     {
       "Identity": "/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/wwwroot/profile-images/2c62e681-28dc-4918-a63a-b6787ac1b469_istockphoto-1451587807-612x612.jpg",

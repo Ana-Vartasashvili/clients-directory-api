@@ -126,14 +126,16 @@ public class ClientsController : BaseController
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     public async Task<IActionResult> GetById(int id)
     {
-        var client = await _dbContext.Clients.SingleOrDefaultAsync(x => x.Id == id); 
+        var client = await _dbContext.Clients
+            .Include(c=>c.Accounts)
+            .SingleOrDefaultAsync(x => x.Id == id); 
         
         if (client == null)
         {
             return NotFound();
         }
 
-        return Ok(_mapper.Map<GetClientDto>(client));
+        return Ok(_mapper.Map<GetFullClientDto>(client));
     }
 
     /// <summary>
@@ -189,7 +191,7 @@ public class ClientsController : BaseController
     /// <param name="id">The ID of the client to update.</param>
     /// <returns></returns>
     [HttpPut("{id:int}")]
-    [ProducesResponseType(typeof(GetClientDto), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(GetFullClientDto), StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(ValidationProblemDetails))]
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
@@ -249,5 +251,49 @@ public class ClientsController : BaseController
         await _dbContext.SaveChangesAsync();
 
         return NoContent();
+    }
+
+    [HttpPost("{id:int}/accounts")]
+    [ProducesResponseType(typeof(GetAccountDto), StatusCodes.Status201Created)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+    public async Task<IActionResult> CreateAccount(int id, [FromBody] CreateAccountDto accountDto)
+    {
+        var client = await _dbContext.Clients.FindAsync(id);
+        if (client == null)
+        {
+            return NotFound("Client not found.");
+        }
+
+        var newAccount = _mapper.Map<Account>(accountDto);
+        newAccount.ClientId = id;
+
+        _dbContext.Accounts.Add(newAccount);
+        await _dbContext.SaveChangesAsync();
+
+        return CreatedAtAction(nameof(GetById), new { id }, _mapper.Map<GetAccountDto>(newAccount));
+    }
+    
+    [HttpPut("accounts/{accountId:int}/close")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> CloseAccount(int accountId)
+    {
+        var account = await _dbContext.Accounts.FindAsync(accountId);
+
+        if (account == null)
+        {
+            return NotFound("Account not found.");
+        }
+
+        if (account.Status == AccountStatus.Closed)
+        {
+            return BadRequest("Account is already closed.");
+        }
+
+        account.Status = AccountStatus.Closed;
+        await _dbContext.SaveChangesAsync();
+
+        return Ok($"Account {accountId} has been closed.");
     }
 }

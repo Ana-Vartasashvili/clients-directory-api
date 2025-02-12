@@ -14,5 +14,9 @@ public class AutoMapperProfile : Profile
         CreateMap<GetClientDto, Client>();
         CreateMap<UpdateClientDto, Client>()
             .ForAllMembers(opt => opt.Condition((src, dest, srcMember) => srcMember != null));
+        CreateMap<Account, GetAccountDto>();
+        CreateMap<CreateAccountDto, Account>();
+        CreateMap<GetFullClientDto, Client>();
+        CreateMap<Client, GetFullClientDto>();
     }
 }

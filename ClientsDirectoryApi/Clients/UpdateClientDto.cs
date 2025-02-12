@@ -8,6 +8,7 @@ public class UpdateClientDto
     public string?  FirstName { get; set; }
     public string?  LastName { get; set; }
     public string? PhoneNumber { get; set; }
+    public Gender? Gender { get; set; }
     public string? LegalAddressCountry { get; set; }
     public string?  LegalAddressCity { get; set; }
     public string?  LegalAddressLine { get; set; }

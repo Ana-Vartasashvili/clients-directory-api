@@ -3,6 +3,7 @@ using System;
 using ClientsDirectoryApi;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ClientsDirectoryApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250211190449_AddAccountForClient")]
+    partial class AddAccountForClient
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.1");
@@ -29,17 +32,18 @@ namespace ClientsDirectoryApi.Migrations
                     b.Property<int>("Currency")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("Status")
+                    b.Property<int>("Type")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("Type")
+                    b.Property<int>("status")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ClientId");
+                    b.HasIndex("ClientId")
+                        .IsUnique();
 
-                    b.ToTable("Accounts");
+                    b.ToTable("Account");
                 });
 
             modelBuilder.Entity("ClientsDirectoryApi.Client", b =>
@@ -105,8 +109,8 @@ namespace ClientsDirectoryApi.Migrations
             modelBuilder.Entity("ClientsDirectoryApi.Account", b =>
                 {
                     b.HasOne("ClientsDirectoryApi.Client", "Client")
-                        .WithMany("Accounts")
-                        .HasForeignKey("ClientId")
+                        .WithOne("Account")
+                        .HasForeignKey("ClientsDirectoryApi.Account", "ClientId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -115,7 +119,8 @@ namespace ClientsDirectoryApi.Migrations
 
             modelBuilder.Entity("ClientsDirectoryApi.Client", b =>
                 {
-                    b.Navigation("Accounts");
+                    b.Navigation("Account")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
