@@ -34,7 +34,7 @@ public class Account
     public  Client Client { get; set; } = null!;
     public required AccountType Type { get; set; }
     public required Currency Currency { get; set; }
-    public required AccountStatus Status { get; set; }
+    public required AccountStatus Status { get; set; } = AccountStatus.Active;
 }
 
 public enum AccountType

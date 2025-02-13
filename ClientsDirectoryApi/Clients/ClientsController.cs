@@ -162,7 +162,7 @@ public class ClientsController : BaseController
         _dbContext.Add(newClient);
         await _dbContext.SaveChangesAsync();
         
-        return CreatedAtAction(nameof(GetById), new { id = newClient.Id }, newClient);
+        return CreatedAtAction(nameof(GetById), new { id = newClient.Id }, _mapper.Map<GetClientDto>(newClient));
     }
     
     private async Task<string?> ProcessProfileImage(IFormFile? profileImage)
@@ -252,6 +252,21 @@ public class ClientsController : BaseController
 
         return NoContent();
     }
+    
+    [HttpGet("{id:int}/accounts")]
+    [ProducesResponseType(typeof(IEnumerable<GetAccountDto>), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> GetAccountsByClientId(int id)
+    {
+        var accounts = await _dbContext.Accounts.Where(a => a.ClientId == id).ToListAsync();
+    
+        if (accounts == null || !accounts.Any())
+        {
+            return NotFound("No accounts found for this client.");
+        }
+    
+        return Ok(_mapper.Map<IEnumerable<GetAccountDto>>(accounts));
+    }
 
     [HttpPost("{id:int}/accounts")]
     [ProducesResponseType(typeof(GetAccountDto), StatusCodes.Status201Created)]
@@ -271,7 +286,7 @@ public class ClientsController : BaseController
         _dbContext.Accounts.Add(newAccount);
         await _dbContext.SaveChangesAsync();
 
-        return CreatedAtAction(nameof(GetById), new { id }, _mapper.Map<GetAccountDto>(newAccount));
+        return Ok(_mapper.Map<GetAccountDto>(newAccount));
     }
     
     [HttpPut("accounts/{accountId:int}/close")]

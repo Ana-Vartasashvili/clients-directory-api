@@ -27,15 +27,15 @@ public class CreateClientDtoValidator : AbstractValidator<CreateClientDto>
             .NotEmpty()
             .MinimumLength(2)
             .MaximumLength(50)
-            .Matches(@"^(?!.*[\u10A0-\u10FF].*[a-zA-Z])(?!.*[a-zA-Z].*[\u10A0-\u10FF])[\u10A0-\u10FFa-zA-Z]+$")
+            . Matches(@"^(?!.*[\u10A0-\u10FF].*[a-zA-Z])(?!.*[a-zA-Z].*[\u10A0-\u10FF])[\u10A0-\u10FFa-zA-Z ]+$")
             .WithMessage("First name must contain only Georgian or only Latin characters.");
         
         RuleFor(x => x.LastName)
             .NotEmpty()
             .MinimumLength(2)
             .MaximumLength(50)
-            .Matches(@"^(?!.*[\u10A0-\u10FF].*[a-zA-Z])(?!.*[a-zA-Z].*[\u10A0-\u10FF])[\u10A0-\u10FFa-zA-Z]+$")
-            .WithMessage("First name must contain only Georgian or only Latin characters.");
+            .Matches(@"^(?!.*[\u10A0-\u10FF].*[a-zA-Z])(?!.*[a-zA-Z].*[\u10A0-\u10FF])[\u10A0-\u10FFa-zA-Z ]+$")
+            .WithMessage("Last name must contain only Georgian or only Latin characters.");
 
         RuleFor(x => x.DocumentId)
             .NotEmpty()
