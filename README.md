@@ -8,35 +8,35 @@ This project is the backend API for the Clients Directory application. It is bui
 
 ### Installation
 
-1. Clone the repository:
+1. Clone the backend repository:
 
-    ```sh
-    git clone https://github.com/Ana-Vartasashvili/clients-directory-api.git
-    ```
+   ```sh
+   git clone https://github.com/Ana-Vartasashvili/clients-directory-api.git
+   ```
 
-2. Navigate to the project directory:
+2. Navigate to the backend project directory:
 
-    ```sh
-    cd clients-directory-api
-    ```
+   ```sh
+   cd clients-directory-api
+   ```
 
 3. Restore the .NET dependencies:
 
-    ```sh
-    dotnet restore
-    ```
+   ```sh
+   dotnet restore
+   ```
 
-5. Build the project:
+4. Navigate to ClientsDirectoryApi:
 
-    ```sh
-    dotnet build
-    ```
+   ```sh
+   cd ./ClientsDirectoryApi
+   ```
 
-6. Run the project:
+5. Run the project:
 
-    ```sh
-    dotnet run
-    ```
+   ```sh
+   dotnet run
+   ```
 
 ### Running the Application
 
