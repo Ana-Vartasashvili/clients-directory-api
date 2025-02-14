@@ -88,7 +88,10 @@ public class ClientsController : BaseController
     
     private IQueryable<Client> ApplySorting(IQueryable<Client> query, GetAllClientsRequest filter)
     {
-        if (string.IsNullOrEmpty(filter.SortBy)) return query;
+        if (string.IsNullOrEmpty(filter.SortBy))
+        {
+            return query.OrderByDescending(c => c.CreatedAt);
+        }
         
         var sortByParts = filter.SortBy.Split('_');
         var sortField = sortByParts[0].ToLower();

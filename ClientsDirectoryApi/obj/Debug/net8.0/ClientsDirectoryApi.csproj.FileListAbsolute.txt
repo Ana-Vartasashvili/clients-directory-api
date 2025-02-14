@@ -168,3 +168,4 @@
 /Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/bin/Debug/net8.0/Newtonsoft.Json.dll
 /Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/bin/Debug/net8.0/Newtonsoft.Json.Bson.dll
+/Users/avartasahsvili/RiderProjects/ClientsDirectoryApi/ClientsDirectoryApi/obj/Debug/net8.0/ClientsDirectoryApi.sourcelink.json

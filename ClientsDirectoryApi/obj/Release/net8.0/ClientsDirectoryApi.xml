@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClientsDirectoryApi</name>
+    </assembly>
+    <members>
+        <member name="M:ClientsDirectoryApi.Clients.ClientsController.GetAll(ClientsDirectoryApi.Clients.GetAllClientsRequest)">
+            <summary>
+            Gets all of the clients in the system.
+            </summary>
+            <returns>Returns the clients in a JSON array.</returns>
+        </member>
+        <member name="M:ClientsDirectoryApi.Clients.ClientsController.GetById(System.Int32)">
+            <summary>
+            Gets a client by ID.
+            </summary>
+            <param name="id">The ID of the client.</param>
+            <returns>The single client record.</returns>
+        </member>
+        <member name="M:ClientsDirectoryApi.Clients.ClientsController.CreateClient(ClientsDirectoryApi.Clients.CreateClientDto)">
+            <summary>
+            Creates a new client.
+            </summary>
+            <param name="clientDto">The client to be created.</param>
+            <returns>A link to the client that was created.</returns>
+        </member>
+        <member name="M:ClientsDirectoryApi.Clients.ClientsController.UpdateClient(System.Int32,ClientsDirectoryApi.Clients.UpdateClientDto)">
+            <summary>
+            Updates a client.
+            </summary>
+            <param name="id">The ID of the client to update.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClientsDirectoryApi.Clients.ClientsController.DeleteClient(System.Int32)">
+            <summary>
+            Deletes a client.
+            </summary>
+            <param name="id">The ID of the client to delete.</param>
+            <returns></returns>
+        </member>
+        <member name="T:ClientsDirectoryApi.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ClientsDirectoryApi.Migrations.UpdateClientProfileImageColumn">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.UpdateClientProfileImageColumn.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.UpdateClientProfileImageColumn.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.UpdateClientProfileImageColumn.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ClientsDirectoryApi.Migrations.AddCreationDateToClient">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddCreationDateToClient.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddCreationDateToClient.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddCreationDateToClient.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ClientsDirectoryApi.Migrations.AddAccountForClient">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClient.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClient.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClient.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ClientsDirectoryApi.Migrations.AddAccountForClients">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClients.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClients.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClients.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ClientsDirectoryApi.Migrations.AddAccountForClientss">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClientss.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClientss.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClientss.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ClientsDirectoryApi.Migrations.AddAccountForClientsss">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClientsss.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClientsss.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ClientsDirectoryApi.Migrations.AddAccountForClientsss.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
