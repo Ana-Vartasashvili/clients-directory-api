@@ -31,6 +31,13 @@ builder.Services.AddControllers().AddNewtonsoftJson();
 
 var app = builder.Build();
 
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    SeedData.MigrateAndSeed(services);
+}
+
+
 app.UseStaticFiles();
 app.UseCors("AllowAll");
 
